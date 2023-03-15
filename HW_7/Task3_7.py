@@ -23,11 +23,6 @@ str(self) - вызывается функциями str, print и format.
 
 
 class Worker:
-    name = None
-    surname = None
-    position = None
-    _income = None
-
     def __init__(self, name, surname, position, wage, bonus):
         self.name = name
         self.surname = surname
